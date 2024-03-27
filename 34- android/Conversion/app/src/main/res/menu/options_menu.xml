@@ -1,0 +1,8 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/action_conversion"
+        android:title="Conversion C-->F"/>
+    <item
+        android:id="@+id/action_quit"
+        android:title="Quitter"/>
+</menu>

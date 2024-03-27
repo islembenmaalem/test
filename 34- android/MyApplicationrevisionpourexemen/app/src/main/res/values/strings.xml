@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">My Application revision pour exemen</string>
+    <string name="rad1">rad1</string>
+    <string name="nom">nom</string>
+    <string name="password">password</string>
+    <string name="show">show</string>
+    <string name="verif">verif</string>
+    <string name="edit">edit</string>
+    <string name="name">Name</string>
+    <string name="rad2">rad2</string>
+</resources>

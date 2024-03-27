@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Conversion</string>
+    <string name="conversion_de_monnaie">Conversion de Monnaie</string>
+    <string name="dinar_tunisien_euro"><![CDATA[Dinar Tunisien ->Euro]]></string>
+    <string name="convertir">CONVERTIR</string>
+    <string name="euro_dinar_tunisien"><![CDATA[Euro->Dinar Tunisien]]></string>
+    <string name="r_sultat">Résultat</string>
+    <string name="conversion_c_f_quitter"><![CDATA[Conversion C<->F Quitter]]></string>
+    <string name="donner_une_valeur_flottante">Donner une valeur flottante</string>
+</resources>

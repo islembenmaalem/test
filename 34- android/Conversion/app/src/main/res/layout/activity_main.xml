@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ConversionMonnaie">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Conversion monnaie" />
+
+    <EditText
+        android:id="@+id/valeur"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:hint="Donner une valeur flottante" />
+
+    <RadioGroup
+        android:id="@+id/gender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/eurodinar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Euro -> Dinar Tunisien"/>
+        <RadioButton
+            android:id="@+id/dinareuro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dinar Tunisien -> Euro"/>
+        <Button
+            android:id="@+id/convertir"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="convertir"/>
+
+
+
+    </RadioGroup>
+    <TextView
+        android:id="@+id/resultat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="resultat" />
+</LinearLayout>
