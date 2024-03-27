@@ -1,7 +1,5 @@
 # Formation Management Exercise
 
-This project manages formations, teachers, and participants within a learning environment.
-
 This Java exercise involves creating three classes: `Enseignant`,  `Formation` and `Participant`.
 
 ## Enseignant (Teacher)
